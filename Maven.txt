@@ -1,0 +1,9 @@
+MAVEN
+
+Hacemos click en este orden:
+file > new project > maven > create from archetype > selccionamos quickstart
+
+Me ha dado problemas continuamente la librería CSV, he intendo solucionarlas como he podido
+lo que ha derivado en no hacer ningun commit ya que no había cambios
+
+He cambiado código para ganar tiempo e intentar que funcione todo pero aun asi imposible.

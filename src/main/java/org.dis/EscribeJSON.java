@@ -9,12 +9,13 @@ import com.sun.xml.internal.ws.server.ServerRtException;
 import java.io.FileWriter;
 import java.io.Writer;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class EscribeJSON {
 
     public static void main(String[] args) {
-        LeerCSV.leer_csv("best-golf-players.csv");
+        List<POJO> parseaCSV("best-golf-players.csv");
         try {
             // create a map
             Map<String, Object> map = new HashMap<>();

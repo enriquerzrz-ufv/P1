@@ -18,7 +18,7 @@ import java.util.List;
 
 public class LeerCSV {
 
-    public static void leer_csv(String path) {
+    public List<POJO> parseaCSV(String path) {
         List<POJO> players = CsvToBean.parse();
         POJO p = new POJO();
 
@@ -44,5 +44,7 @@ public class LeerCSV {
             e.printStackTrace();
         }
 
+        return players;
     }
+
 }
